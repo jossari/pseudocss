@@ -478,7 +478,12 @@ a {
   font-size: 3.25rem;
 }
 
-#btn4:{
+.btn4 {
+  background: orange;
+  font-size: 3.25rem;
+}
+
+#btn5 {
   outline: none;
   border: none;
   cursor: pointer;
@@ -494,6 +499,16 @@ a {
   margin: 0 auto;
 	box-shadow: 0 6px #efa424;
   border-radius: 20px;
+}
+
+#btn5:hover {
+	box-shadow: 0 10px #7c24ef;
+	top: 2px;
+}
+
+#btn5:active {
+	box-shadow: 0 10px #ef24de;
+	top: 6px;
 }
 
 .headline {
