@@ -1,0 +1,22 @@
+/* #3498db; */
+/* #f1c40f */
+
+.translations   { 
+    background-color: rgb(43, 255, 0);
+
+    &__move-right {
+        background-color: #3498db;
+        transform: translateX(100px);
+        }
+        
+    &__move-down {
+        background-color: #f1c40f;
+        transform: translateY(20px);
+        }
+    }        
+
+.translations:hover {
+        transform: translate(20px, 20px);
+        }
+
+    

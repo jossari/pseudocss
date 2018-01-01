@@ -439,6 +439,12 @@ a {
   color: #d59541;
 }
 
+p { 
+  width: 50px;
+  height: 50px;
+  background-color: #1abc9c;
+}
+
 .btn {
   background-color: #2f5572;
   color: #FFF;
@@ -562,3 +568,28 @@ a {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
+/* #3498db; */
+
+/* #f1c40f */
+
+.translations   { 
+    background-color: rgb(43, 255, 0);
+    }
+
+.translations__move-right {
+  background-color: #3498db;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.translations__move-down {
+  background-color: #f1c40f;
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+}
+
+.translations:hover {
+        -webkit-transform: translate(20px, 20px);
+                transform: translate(20px, 20px);
+        }
