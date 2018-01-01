@@ -1,0 +1,50 @@
+.transition {
+    background: #9b59b6;
+    height: 100px;
+    width: 100px;
+    line-height:100px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+   
+  &__animated {
+    transition-property: background, border-radius;
+    transition-duration: 5s, 1s;
+    transition-delay: 2s;
+  }
+
+}
+  
+.transition:hover {
+    background: #e74c3c;
+    transform-origin: top left;
+    transform:scale(2);
+    border-radius: 50px;
+  }
+
+  .transitionbox {
+    background: #9b59b6;
+    height: 100px;
+    width: 100px;
+    line-height:100px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+   
+  &__bezierbox {
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.050, 0.005, 0.000, 0.870);
+  }
+
+}
+  
+.transitionbox:hover {
+    transform: translateX(300px);
+    background-color: teal;
+  }
+  
+  
+  

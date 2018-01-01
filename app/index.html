@@ -23,7 +23,7 @@
   </div>
   
 <div class="headline">
-    <h3 class="headline headline--centered">Using only CSS...</h3>
+    <h3 class="headline headline__centered">Using only CSS...</h3>
     <button class="btn" id="btn1">Turn me purple WHILE a user clicks me</button>
     <button class="btn--orange" id="btn2">Turn me green when a user mouses over me</button>
     <button class="btn--large" id="btn3">Turn me orange while I have focus(whatever that means)</button>
@@ -42,12 +42,40 @@
 </div>
 
 <div>
-    <p></p>
+    <p>Global</p>
     <p class="translations"></p>
     <p class="translations translations__move-right"></p>
     <p class="translations"></p>
     <p class="translations translations__move-down"></p>
+    <p class="translations__scale">Hello</p>
+    <p class="translations__rotate">Rotate</p>
 </div>
+
+<div>
+    <p class="transition">BORING</p>
+    <p class="transition transition__animated">ANIMATED</p>
+    <p class="transitionbox transitionbox__bezierbox">BEZIER</p>
+</div>
+
+<h1>An Image Gallery</h1>
+  <div class="container">
+    <div class="item red">
+      <img src="https://preview.ibb.co/gQbzQ5/colt_steele_firemarshall.jpg"/>
+      <i class="fa fa-camera"></i>
+    </div>
+
+    <div class="item blue">
+      <img src="http:i.imgur.com/AhCfhrF.jpg"/>
+      <i class="fa fa-paw"></i>
+    </div>
+
+    <div class="item green">
+      <img src="http://preview.ibb.co/kd9Esk/colt_steele_smugglerscave.jpg"/>
+      <i class="fa fa-cloud"></i>
+    </div>
+  </div>
+</div>
+
 
 
   <!-- build:js assets/scripts/App.js -->
