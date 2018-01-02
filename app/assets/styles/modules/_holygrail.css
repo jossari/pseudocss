@@ -1,0 +1,68 @@
+.holygrailbody {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #2c3e50;
+    font-family: Helvetica;
+}
+
+.holygraila {
+    text-decoration: none;
+    color: black;
+  }
+
+.holygrailheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.holygrailmain > *,.holygrailheader, .holygrailfooter {
+    margin: 4px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.holygrailmain {
+    display: flex;
+    flex-basis: 800px;
+}
+
+.holygrailarticle {
+    flex: 4 0 60%;
+    /* flex-basis: 60%; */
+    background: #ecf0f1;
+    /* flex-grow: 4; */
+}
+
+.holygrailnav {
+    flex: 1 1 20%;
+    /* flex-basis: 20%; */
+    background: #95a5a6;
+    order: -1;
+    /* flex-grow: 1; */
+}
+
+.holygrailaside {
+    flex: 1 1 20%;
+    /* flex-basis: 20%; */
+    background: #3498db;
+    /* flex-grow: 1; */
+}
+
+.holygrailheader, .holygrailfooter {
+    background: #1abc9c;
+    flex-basis: 100px;
+  }
+
+@media all and (max-width: 640px) {
+    .holygrailmain {
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .holygrailnav {
+        order: 0;
+    }
+}
