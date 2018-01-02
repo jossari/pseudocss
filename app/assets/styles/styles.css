@@ -8,3 +8,7 @@
 @import "modules/_translations";
 @import "modules/_transition";
 @import "modules/_animatedgallery";
+@import "modules/_keyframeugly";
+@import "modules/_fillmode";
+@import "modules/_risingsun";
+@import "modules/_cssloaders";
