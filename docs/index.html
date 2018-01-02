@@ -8,9 +8,9 @@
   <meta name="keywords" content="A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s)">
   <meta name="description" content="Pseudo-classes let you apply a style to an element, also in relation to external factors navigator, for example)">
 
-  <link rel="stylesheet" href="assets/styles/styles-9af9125ae4.css"/>
+  <link rel="stylesheet" href="assets/styles/styles-02ab2b567f.css"/>
 
-  <script src="assets/scripts/Vendor-282073b809.js"></script>
+  <script src="assets/scripts/Vendor-3301c2a136.js"></script>
 
 </head>
 <body>
@@ -19,7 +19,7 @@
   </div>
   
 <div class="headline">
-    <h3 class="headline headline--centered">Using only CSS...</h3>
+    <h3 class="headline headline__centered">Using only CSS...</h3>
     <button class="btn" id="btn1">Turn me purple WHILE a user clicks me</button>
     <button class="btn--orange" id="btn2">Turn me green when a user mouses over me</button>
     <button class="btn--large" id="btn3">Turn me orange while I have focus(whatever that means)</button>
@@ -31,7 +31,207 @@
   <button id="btn3">Turn me orange while I have focus(whatever that means)</button>
 </div>
 
+<div>
+  <h1>This Button Does Nothing</h1>
+  <button class="btn4">Click Me</button>
+  <button id="btn5">Click Me</button>
+</div>
 
-  <script src="assets/scripts/App-6009c7c076.js"></script>
+<div>
+    <p>Global</p>
+    <p class="translations"></p>
+    <p class="translations translations__move-right"></p>
+    <p class="translations"></p>
+    <p class="translations translations__move-down"></p>
+    <p class="translations__scale">Hello</p>
+    <p class="translations__rotate">Rotate</p>
+</div>
+
+<div>
+    <p class="transition">BORING</p>
+    <p class="transition transition__animated">ANIMATED</p>
+    <p class="transitionbox transitionbox__bezierbox">BEZIER</p>
+</div>
+
+<h1 class="animatedgallery-text">An Image Gallery</h1>
+  <div class="animatedgallery-container">
+    <div class="itemr red">
+      <img src="https://preview.ibb.co/gQbzQ5/colt_steele_firemarshall.jpg"/>
+      <i class="fa fa-camera"></i>
+      <a> Silta</a>
+    </div>
+
+    <div class="itemr blue">
+      <img src="http://i.imgur.com/AhCfhrF.jpg"/>
+      <i class="fa fa-bath"></i>
+      <a> Kissa</a>
+    </div>
+
+    <div class="itemr green">
+      <img src="http://preview.ibb.co/kd9Esk/colt_steele_smugglerscave.jpg"/>
+      <i class="fa fa-cloud"></i>
+      <a> Luola</a>
+    </div>
+  </div>
+</div>
+
+<p class="keyframeugly">STOP</p>
+<p class="keyframeugly">GOGO</p>
+
+<p class="fillmodebox">NONE only hover</p>
+<p class="fillmodebox fillmodebox__forwards">FORWARDS - stays red at end</p>
+<p class="fillmodebox fillmodebox__backwards">BACKWARDS - turns yellow immediately</p>
+<p class="fillmodebox fillmodebox__both">BOTH- turns yellow immediately and stays red at end</p>
+
+<div class="tausta">
+  <div class="sun"> 2 Times</div>
+  <div class="grass"></div>
+</div>
+
+<div class="cssloaders">
+  <h1>CSS Loaders</h1>
+  <div class="row cf">
+    <div class="three col">
+      <div class="loader" id="loader-1"></div>
+    </div>
+    <div class="three col">
+      <div class="loader" id="loader-2">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="three col">
+      <div class="loader" id="loader-3"></div>
+    </div>
+    <div class="three col">
+      <div class="loader" id="loader-4">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <div class="row cf">
+    <div class="three col">
+      <div class="loader" id="loader-5">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="three col">
+      <div class="loader" id="loader-6">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="three col">
+      <div class="loader" id="loader-7"></div>
+    </div>
+    <div class="three col">
+      <div class="loader" id="loader-8"></div>
+    </div>
+  </div>
+</div>
+
+<div class="flexboxcontainer">
+    <div class="flexbox box-1">1</div>
+    <div class="flexbox box-2">2</div>
+    <div class="flexbox box-3">3</div>
+    <div class="flexbox box-4">4</div> 
+    <div class="flexbox box-5">5</div>
+    <div class="flexbox box-6">6</div>
+    <div class="flexbox box-7">7</div>
+    <div class="flexbox box-8">8</div>
+    <div class="flexbox box-9">9</div>  
+  </div>
+
+  <div class="sidenavsidebar">
+      <!-- This section gets pushed to the top-->
+      <div class="sidenavsection">
+        <div class="item">Messages</div>
+        <div class="item">Friends</div>
+        <div class="item">User Profile</div>
+      </div>
+      <!-- This section gets pushed to the bottom-->
+      <div class="sidenavsection">
+        <div class="item">Settings</div>
+        <div class="item">Questions?</div>
+      </div>
+  </div>
+
+  <nav class="flexboxnav">
+    <a href=""><i class="fa fa-home"></i>Home</a>
+    <a href=""><i class="fa fa-question"></i>About</a>
+    <a href=""><i class="fa fa-phone"></i>Contact</a>
+    <a href=""><i class="fa fa-paw"></i>Dogs</a>
+  </nav>
+
+<div class="holygrailbody">
+  <header class="holygrailheader">
+    <a class="holygraila" href="">Nav Left</a>
+    <a class="holygraila" href="">Nav Right</a>
+  </header>
+  <main class="holygrailmain">
+    <article class="holygrailarticle">MAIN CONTENT
+            <div class="row cf">
+              <div class="three col">
+                <div class="loader" id="loader-1"></div>
+              </div>
+              <div class="three col">
+                <div class="loader" id="loader-2">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="three col">
+                <div class="loader" id="loader-3"></div>
+              </div>
+              <div class="three col">
+                <div class="loader" id="loader-4">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+            <div class="row cf">
+              <div class="three col">
+                <div class="loader" id="loader-5">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="three col">
+                <div class="loader" id="loader-6">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+              <div class="three col">
+                <div class="loader" id="loader-7"></div>
+              </div>
+              <div class="three col">
+                <div class="loader" id="loader-8"></div>
+              </div>
+            </div>
+    </article>
+    <nav class="holygrailnav">SIDE NAV</nav>
+    <aside class="holygrailaside">ASIDE</aside>
+  </main>
+  <footer class="holygrailfooter">FOOTER</footer>
+</div>
+
+
+  <script src="assets/scripts/App-ce35f0ade7.js"></script>
 </body>
 </html>
